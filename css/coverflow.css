@@ -76,15 +76,16 @@ body{
 	background: rgba(0, 0, 0, 0.298039);
 	width: 375px;
 	margin-left: -62.5px;
-	color: rgb(255, 255, 255);
 	font-family: "Lucida Sans Unicode";
 	font-size: 18px;
+	
 }
 
 #coverflow .text p {
 	margin: 5px;
 	position: relative;
 	text-align: center;
+	color: white;
 }
 
 li:nth-child(-n+4) .imgdiv,

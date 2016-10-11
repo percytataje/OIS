@@ -5,7 +5,7 @@ ul.tab {
     padding: 0;
     overflow: hidden;
     border: 0px solid #ccc;
-    background-color: #566573;
+    background-color: #24325D;
     border-radius: 10px 10px 0 0;
 }
 
@@ -43,8 +43,7 @@ ul.tab li a:focus, .active {
     padding: 15px 80px;
     border: 0px solid #ccc;
     border-top: none;
-    background: #283747;
-    color: white;
+    background: #24325D;
     border-radius: 0 0 10px 10px;
 }
 .tabcontent {
