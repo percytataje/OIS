@@ -3819,6 +3819,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .tab-content > .tab-pane {
+  margin-top: 3220px;
   display: none;
   visibility: hidden;
 }

@@ -5,7 +5,11 @@
 /* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 @import url('animate.css');
-
+img.editar{
+  max-width: 35px;
+    height: 35px;
+    width: auto/9; /* Bug de ie8 */
+}
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;
