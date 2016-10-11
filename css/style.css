@@ -45,8 +45,13 @@ hr {
 	margin-top:20px;
 	margin-bottom:50px;
 }
+.container{
+  width: auto;
+}
 .navbar-brand {
   float: left;
+  width: 100px;
+  margin-left: 0px;
   height: 160px;
   padding: 15px 15px;
   font-size: 30px;
@@ -60,7 +65,8 @@ a.navbar-brand span {
 
 .navbar-collapse {
 	margin-top: 50px;
-	float:right;
+  width: 995px;
+  float:right;
 	padding-right: 15px;
 	padding-left: 15px;
 	overflow-x: visible;
