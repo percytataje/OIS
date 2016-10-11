@@ -47,7 +47,9 @@ hr {
 }
 .container{
   width: auto;
+
 }
+
 .navbar-brand {
   float: left;
   width: 100px;
@@ -424,6 +426,8 @@ textarea.form-control {
 footer {
   background: #24325D;
 }
+
+
 
 .inner-footer {
   padding: 100px 0;
