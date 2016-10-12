@@ -1,0 +1,308 @@
+body{
+    background: white;
+}
+
+.main {
+    padding: 3.5em 0 2em;
+    text-align: center;
+}
+.doc-info {
+	width: 60%;
+	height: 450px;
+	position: relative;
+	display: inline-block;
+    border: 1px solid #1B242F;
+}
+.doc-top {
+    position: top;
+    height: 190px;
+}
+.vistaPrevia{
+	max-width: 80%;
+	max-height: 100%;
+	margin: auto;
+	border-radius: 5px;
+}
+.doc-top-left {
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align:center;
+    display: flex;
+}
+.doc-top-right {
+    float: right;
+	width: 80%;
+	height: 100%;
+}
+.doc-top  h2 {
+    color: #171a21;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 0 5%;
+}
+.doc-top p {
+    color: #868b98;
+    font-size: 0.9em;
+    margin-top: 0.2em;
+    padding: 10px 30% 10px 5%;
+    text-align: justify;
+}
+.doc-top a{
+	background: #24325D;
+	text-decoration: none;
+	padding: 0.3em 1.3em;
+	border-radius: 0.2em;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.doc-bot{
+	position: bottom;
+	height: 260px;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 12px auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th{
+	text-align: center;
+}
+td{
+	color: #868b98;
+	font-size: 0.9em;
+	padding: 4px;
+}
+#down{
+	padding:  0 auto;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Por debajo de 700px */(
+@media(max-width: 700px){
+	.doc-top  h2{
+		font-size:1.2em;
+	}
+	.doc-top p{
+		font-size:0.6em;
+	}
+}
+/* Por debajo de 400px */(
+@media(max-width: 400px){
+	.doc-top  h2{
+		font-size:0.9em;
+	}
+	.doc-top p{
+		font-size:0.4em;
+	}
+}
+
+@media(max-width:768px){
+h1 {
+    font-size: 2.7em;
+}
+.account {
+    width: 80%;
+}
+.account-info {
+    width: 45%;
+}
+.account-top {
+    padding: 1.8em 1em;
+}
+.account-top-left {
+    width: 29%;
+}
+.account-top h2 {
+    font-size: 1.3em;
+}
+.account-top p {
+    font-size: 0.8em;
+}
+.tabs nav a {
+    font-size: 1em;
+}
+.tabs .content.visible {
+    width: 55%;
+}
+.text {
+    padding: 0.9em 1em;
+}
+.text-right {
+    width: 91%;
+}
+.text-right h4 {
+    font-size: 1em;
+}
+.text-right p {
+    line-height: 1.4em;
+}
+}
+@media(max-width:640px){
+h1 {
+    font-size: 2.4em;
+}
+.account {
+    width: 88%;
+}
+.account-top h2 {
+    font-size: 1.2em;
+}
+.options {
+    padding: 1em 2em 7.5em;
+}
+.text {
+    padding: 0.9em 1.5em .9em 0.5em;
+}
+.text-right p {
+    font-size: .8em;
+}
+.options {
+    padding: 1em 2em 2em;
+}
+.copyright p {
+    font-size: 0.9em;
+	line-height: 1.8em;
+}
+}
+@media(max-width:600px){
+.account {
+    width: 94%;
+}
+}
+@media(max-width:480px){
+h1 {
+    font-size: 1.9em;
+}
+.account {
+    width: 95%;
+}
+.account-top-left {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.account-top-right {
+    float: none;
+    text-align: center;
+}
+.tabs nav a {
+    font-size: 0.95em;
+    padding: 1em 1.5em;
+}
+.options {
+    padding: 1em 1em 2em;
+}
+.text-right h4 {
+    font-size: 0.9em;
+}
+.text-right label {
+    font-size: 0.7em;
+}
+.account span.star {
+    margin-right: 3px;
+}
+.text {
+    padding: 0.8em 1em .8em 0.5em;
+}
+.text-right p {
+    font-size: .75em;
+}
+.text-right h6 {
+    font-size: 0.8em;
+}
+.tabs nav a i {
+    font-size: 0.7em;
+}
+}
+@media(max-width:320px){
+.main {
+    padding: 2em 0 1em;
+}
+h1 {
+    font-size: 1.5em;
+}
+.account {
+    margin: 2em auto 0;
+}
+.account-info {
+    width: 100%;
+	border: none;
+}
+.account-top {
+    padding: 1em 0;
+}
+.tabs nav {
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 0.5em;
+}
+.tabs nav a {
+    font-size: 0.8em;
+    padding: 0.5em .75em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+.account span {
+    margin-right: 2px;
+}
+.tabs {
+    position: relative;
+    padding-bottom: 25.5em;
+}
+.tabs nav a i {
+    font-size: 0.6em;
+    padding: 1px 4px;
+    margin: 1px 0 0 4px;
+}
+.tabs .content {
+    top: 104px;
+    height: inherit;
+}
+.tabs .content.visible {
+    width: 100%;
+}
+.text {
+    padding: 0.6em 0.5em;
+}
+.text-right h4 {
+    font-size: 0.85em;
+}
+.text-right p {
+    font-size: .7em;
+}
+.text-right h6 {
+    font-size: 0.75em;
+}
+.text-right label {
+    font-size: 0.6em;
+}
+.account span.star {
+    margin-right: 9px;
+}
+select.dropdown {
+    font-size: 0.7em;
+}
+.options {
+    padding: 0em 1em 2em;
+}
+.copyright {
+    margin: 1.5em 1em;
+}
+.copyright p {
+    font-size: 0.8em;
+}
+}
+
