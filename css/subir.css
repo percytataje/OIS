@@ -337,10 +337,9 @@ textarea.describe{
     display: inline-block;
     width: 40%;
 }
-#drop .btn.btn-warning.btn-responsive" {
-    background: #0986A3 url("../img/up.png") no-repeat 10px;
+#drop .btn-responsive {
+    background: #1B242F url("../img/up.png") no-repeat 10px;
     padding: 10px 15px 10px 30px;
-    color: #fff;
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
@@ -350,7 +349,7 @@ textarea.describe{
     float: left;
 }
 
-#drop a:hover {
+#drop .btn-responsive:hover {
     background-color: #e35a44;
 }
 
