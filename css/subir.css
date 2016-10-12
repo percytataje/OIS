@@ -326,16 +326,18 @@ textarea.describe{
 .done a:hover {
     background-color: #0D9437;
 }
+
 #botones {
     width: 100%;
     display: inline-block;
 }
+
 #drop {
     float: left;
     display: inline-block;
     width: 40%;
 }
-#drop a {
+#drop .btn.btn-warning.btn-responsive" {
     background: #0986A3 url("../img/up.png") no-repeat 10px;
     padding: 10px 15px 10px 30px;
     color: #fff;
