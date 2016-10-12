@@ -17,8 +17,18 @@ img.editar{
 
 }
 .containerperfil{
-  margin-top: 25px;
+  margin-top: 150px;
   margin-bottom: 25px;
+}
+.containerpreguntas{
+  margin-top: 150px;
+  margin-bottom: 25px;
+
+}
+.containeracercade{
+  margin-top: 150px;
+  margin-bottom: 25px;
+
 }
 
 body {
