@@ -17,7 +17,11 @@ img.editar{
 
 }
 .containerperfil{
-  margin-top: 150px;
+  margin-top: 130px;
+  margin-bottom: 25px;
+}
+.containerperfilempresa{
+  margin-top: 10px;
   margin-bottom: 25px;
 }
 .containerinicio{
@@ -86,6 +90,7 @@ hr {
 }
 .container{
   width: auto;
+
 
 }
 

@@ -5111,6 +5111,7 @@ button.close {
 .modal.in .modal-dialog {
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
+       -o-transform: translate(0, 0);
           transform: translate(0, 0);
 }
 .modal-dialog {
@@ -5121,15 +5122,17 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #ffffff;
-  background-clip: padding-box;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
   border-radius: 6px;
-  outline: none;
+  outline: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
           box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
 }
+
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -5158,6 +5161,7 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+
 }
 .modal-body {
   position: relative;

@@ -39,6 +39,7 @@ ul.tab li a:focus, .active {
 
 /* Style the tab content */
 .tabcontent {
+
     display: none;
     padding: 15px 80px;
     border: 0px solid #ccc;
