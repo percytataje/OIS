@@ -10,6 +10,17 @@ img.editar{
     height: 35px;
     width: auto/9; /* Bug de ie8 */
 }
+
+.logo {
+  width: 160px;
+  height: 80px;
+
+}
+.containerperfil{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;

@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 select{
+  margin-top: 50px;;
   margin-bottom: 12px;
   color: #1ab188;
   width: 200px;
+  height: 40px;
   background-image: : #eee url(img/arrow.png);
 	background-position: 280px center;
     background-repeat: no-repeat;
@@ -50,6 +52,7 @@ a:hover {
   margin: 40px auto;
   border-radius: 4px;
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  margin-top: 120px;
 }
 
 .tab-group {
@@ -91,9 +94,9 @@ a:hover {
 
 h1 {
   text-align: center;
-  color: #ffffff;
-  font-weight: 300;
-  margin: 0 0 40px;
+  font-weight: 10;
+  margin: 0 0 20px;
+  color: #151321;
 }
 
 label {
@@ -101,16 +104,29 @@ label {
   -webkit-transform: translateY(6px);
           transform: translateY(6px);
   left: 13px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #000;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
   -webkit-backface-visibility: hidden;
   pointer-events: none;
-  font-size: 22px;
+  font-size: 13px;
+}
+label .ciudad{
+  position: absolute;
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+  left: 13px;
+  color: #000;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size: 13px;
+
 }
 label .req {
   margin: 2px;
-  color: #1ab188;
+  color: #fff;
 }
 
 label.active {
@@ -133,7 +149,7 @@ input, textarea {
   width: 100%;
   height: 100%;
   padding: 5px 10px;
-  background: none;
+
   background-image: none;
   border: 1px solid #a0b3b0;
   color: #ffffff;
@@ -153,7 +169,7 @@ textarea {
 
 .field-wrap {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .top-row:after {
