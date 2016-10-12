@@ -1,39 +1,38 @@
 body {
     font-family: tahoma;
-    background-color: #ABB2B9;
 }
 body a{
     transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
 }
 input[type="button"],input[type="submit"]{
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;
-}
+    margin:0;              
+}   
 p{
-	margin:0;
+    margin:0;
 }
 ul{
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
 }
 label{
-	margin:0;
+    margin:0;
 }
 
 /*-- Fonts --*/
 @font-face{
-	font-family: 'HoltwoodOneSC';
-	src:url(../fuente/HoltwoodOneSC.ttf) format('truetype');
+    font-family: 'HoltwoodOneSC';
+    src:url(../fuente/HoltwoodOneSC.ttf) format('truetype');
 }
 @font-face{
     font-family: 'WorkSans-Regular';
@@ -46,35 +45,42 @@ label{
 h1 {
     text-align: center;
     font-family: HoltwoodOneSC;
-	margin-top: 100px;
-	font-weight: bold;
+    margin-top: 100px;
+    font-weight: bold;
     color: #34383B;
 }
 
 .upload {
-    width: 30%;
-    margin-left: 100px;
-    margin-top: 30px;
+    width: 95%;
+    margin: 30px auto;
     padding: 15px;
-    background-color: #34383b;
-    box-shadow: 7px 7px 7px #585757;
+    border: 1px solid #1B242F;
 }
 
 h3 {
-	margin-bottom: 20px;
-	font-weight: bold;
-    color: #F1F1F1;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #1B242F;
 }
 
 .login-form {
-	color: #fff;
     padding: 10px;
-	position: relative;
-    background-color: #34383b;
+    position: relative;
+}
+
+#titulo-left{
+    width: 60%;
+    float: left;
+}
+
+#titulo-right{
+    width: 30%;
+    float: right;
 }
 
 span {
     font-size: 14px;
+    color: #1B242F !important;
 }
 
 input.title {
@@ -86,14 +92,13 @@ input.title {
 
 input.precio {
     margin-top: 15px;
-    margin-left: 36px;
+    margin-left: 20px;
     border: none;
     background-color: #F5F5F5;
     padding: 5px;
-    max-width: 20%;
 }
 textarea.describe{
-    width: 96%;
+    width: 98.7%;
     border: none;
     background-color: #F5F5F5;
     padding: 5px;
