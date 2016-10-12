@@ -3826,6 +3826,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .tab-content > .active {
   display: block;
   visibility: visible;
+  margin-top: 20px;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
