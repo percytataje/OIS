@@ -5096,6 +5096,7 @@ button.close {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   outline: 0;
+
 }
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform .3s ease-out;
@@ -5105,6 +5106,7 @@ button.close {
   -webkit-transform: translate(0, -25%);
       -ms-transform: translate(0, -25%);
           transform: translate(0, -25%);
+
 }
 .modal.in .modal-dialog {
   -webkit-transform: translate(0, 0);
@@ -5115,10 +5117,11 @@ button.close {
   position: relative;
   width: auto;
   margin: 10px;
+
 }
 .modal-content {
   position: relative;
-  background-color: #fff;
+  background-color: #ffffff;
   background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
