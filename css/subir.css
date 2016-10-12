@@ -122,7 +122,6 @@ textarea.describe{
     list-style-type: none;
     clear: both;
     overflow: hidden;
-    background-color: #2d3134;
     border: 1px solid #BB2424;
     border-radius: 5px;
     margin-top: 25px;
@@ -281,49 +280,40 @@ textarea.describe{
     display: inline-block;
     width: 60%;
 }
-.cancel {
+.btn-danger {
     float: left;
     min-width: 25%;
 }
-.cancel a {
+.btn-danger a {
     background: #DC5151;
-    color: #FFF;
-    color: #FFF;
-    font-size: 18px;
     cursor: pointer;
     text-decoration: none;
 
     padding: 10px 15px 10px 15px;
-    display: inline-block;
 
     text-align: center;
     margin-top: 10px;
     letter-spacing: 2px;
-    min-width: 25%;
 }
-.cancel a:hover {
+.btn-danger a:hover {
     background-color: #F33737;
 }
-.done {
+.btn-success {
     float: right;
     min-width: 25%;
 }
-.done a {
+.btn-success a {
     background: #0259A0;
-    color: #FFF;
-    font-size: 18px;
     cursor: pointer;
     text-decoration: none;
 
     padding: 10px 15px 10px 15px;
-    display: inline-block;
 
     text-align: center;
     margin-top: 10px;
     letter-spacing: 2px;
-    min-width: 25%;
 }
-.done a:hover {
+.btn-success a:hover {
     background-color: #0D9437;
 }
 
@@ -338,7 +328,7 @@ textarea.describe{
     width: 40%;
 }
 #drop .btn-warning {
-    background: #1B242F url("../img/up.png") no-repeat 10px;
+    background: #337ab7 url("../img/up.png") no-repeat 10px;
     padding: 10px 15px 10px 30px;
 }
 
